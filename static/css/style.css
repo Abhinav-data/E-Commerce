@@ -1,0 +1,144 @@
+body{
+	margin: 0;
+	text-align: center;
+	font-family: 'Merriweather', serif;
+}
+
+h1
+{
+	font-family: 'Sacramento', cursive;
+	font-size: 80px;
+	margin-top: 50px;
+	color: #66bfbf
+}
+h2
+{
+	font-family: 'Montserrat', sans-serif;
+	color: #66BFBF
+}
+
+h3
+{
+	font-family: 'Montserrat', sans-serif;
+	color: #11999E
+}
+
+.text-center{
+	margin-top: 20px;
+}
+
+.name{
+	font-size: 80px;
+}
+.ruler{
+	border-top: 3px dotted;
+	width: 10%;
+	color: gray;
+
+}
+
+.footer-link{
+	color: #11999e;
+	margin: 10px 20px;
+	text-decoration: none;
+
+
+}
+
+.paragraph{
+	line-height: 2;
+	font-size: 17px;
+}
+
+.footer-link:hover{
+	color: white;
+	text-decoration: none;
+}
+
+
+.top-container{
+	background-color: #e4f9f5;
+	margin: 0;
+	position: relative;
+	padding-top: 50px; 
+	
+	
+}
+.nav-profile{
+	margin-left: 20px;
+	margin-top: 10px;
+}
+
+
+.nav-item{
+	font-size: 20px;
+	margin-right: 20px;
+	color: #00bdaa;
+}
+
+.navbar-nav{
+	float: right;
+}
+
+.bottom-container{
+
+	background-color: #66bfbf;
+	margin-top: 50px;
+	padding: 30px 0px 16px;
+	text-align: center;
+
+}
+
+.bottom-cloud{
+	position: absolute;
+	left: 300px;
+	bottom: 300px;
+}
+
+.top-cloud{
+	position: absolute;
+	right: 300px;
+	top: 50px;
+	
+}
+.skill-row{
+	width: 50%;
+	margin: 100px auto 100px auto;
+	text-align: left;
+	line-height: 2;
+}
+.code-image{
+	width: 25%;
+	float: left;
+	margin-right: 40px;
+}
+
+.python-image{
+	width: 25%;
+	float: right;
+	margin-left: 40px;
+}
+
+.profile-man{
+	width: 15%;
+	margin-top: 50px;
+}
+
+
+
+.intro{
+	width: 30%;
+	margin: 0 auto 0 auto;
+	line-height: 2;
+}
+
+.contact-message{
+	width: 40%;
+	margin: 50px auto 50px auto;
+	line-height: 2;
+}
+
+.copyright{
+	color: #eaf6f6;
+	margin-top: 1%
+}

@@ -1,0 +1,143 @@
+body{
+	margin: 0;
+	text-align: center;
+	font-family: 'Merriweather', serif;
+}
+
+h1
+{
+	font-family: 'Sacramento', cursive;
+	font-size: 80px;
+	margin-top: 50px;
+	color: #66bfbf
+}
+h2
+{
+	font-family: 'Montserrat', sans-serif;
+	color: #66BFBF
+}
+
+h3
+{
+	font-family: 'Montserrat', sans-serif;
+	color: #11999E
+}
+
+.text-center{
+	margin-top: 20px;
+}
+
+.Snake{
+	background-color: #7dcc93;
+	padding: 5%;
+	/* margin-top: 35px; */
+
+}
+
+.Pong{
+	background-color: #f76160;
+	padding: 5%;
+}
+
+.Hangman{
+	background-color: #31355b;
+	padding: 5%;
+}
+
+.TicTac{
+	background-color: #f8c687;
+	padding: 5%;
+}
+
+.Calculator{
+	background-color: #f86e6b;
+	padding: 5%;
+}
+.gameImage{
+	border-radius: 5%;
+	width: 30%;
+
+}
+.nav-item{
+	font-size: 20px;
+	margin-right: 20px;
+	color: #00bdaa;
+}
+
+.top-container{
+	background-color: #e4f9f5;
+	margin: 0;
+	position: relative;
+	
+}
+
+.nav-profile{
+	margin-left: 20px;
+	margin-top: 10px;
+}
+
+.navbar-nav{
+	float: right;
+}
+
+.profile-man{
+	width: 15%;
+	margin-top: 50px;
+
+}
+.intro{
+	width: 30%;
+	text-align: center;
+	margin: 0 auto 30px auto;
+	line-height: 2;
+	font-size: 20px;
+}
+
+.paragraph{
+	line-height: 2;
+	font-size: 20px;
+}
+
+
+.paragraphProjects{
+	width: 70%;
+	margin: 0 auto 0 auto;
+	line-height: 2;
+	color: #fff;
+	font-size: 20px;
+	text-align: center;
+}
+.projectTitle{
+	color: #fff;
+	margin-top: 20px;
+	font-size: 35px;
+	text-align: center;
+}
+
+.btn{
+	margin-top: 30px;
+}
+
+.bottom-container{
+
+	background-color: #66bfbf;
+	
+	padding: 30px 0px 16px;
+	text-align: center;
+
+}
+.copyright{
+	color: #eaf6f6;
+	margin-top: 1%
+}
+
+.footer-link{
+	color: #11999e;
+	margin: 10px 20px;
+	text-decoration: none;
+
+}
+.footer-link:hover{
+	color: white;
+	text-decoration: none;
+}

@@ -1,29 +1,96 @@
-<!doctype html>
-<html lang="en">
-
+{% load static %}
+<!DOCTYPE html>
+<html>
 <head>
-    <!-- Required meta tags -->
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-    <title>Hello, world!</title>
+    <title>Abhinav</title>
+    <link rel="stylesheet" href="{% static '/css/style.css' %}">
+    <link href="https://fonts.googleapis.com/css?family=Merriweather|Montserrat|Sacramento&display=swap" rel="stylesheet">
+
+  <!-- Bootstrap -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
 </head>
 
 <body>
-    <div class="jumbotron">
-        <h1 class="display-4">Hello, world!</h1>
-        <p class="lead">This is a simple hero unit, a simple jumbotron-style component for calling extra attention to featured content or information.</p>
-        <hr class="my-4">
-        <p>It uses utility classes for typography and spacing to space content out within the larger container.</p>
-        <a class="btn btn-primary btn-lg" href="\shop" role="button">Shop</a>
-        <a class="btn btn-primary btn-lg" href="\admin" role="button">Admin</a>
-    </div>
-    <!-- Optional JavaScript -->
-    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
-</body>
+  
 
+  <!-- ............................Navigation Bar.................................................. -->
+  <nav class="navbar navbar-expand-lg " style="background-color: #e4f9f5;">
+  <a class="navbar-brand" href="#">
+  <img src="{% static '/images/man.png' %}" width="10%" height="10%" alt="man.png" class="nav-profile">
+  </a>
+  
+  <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+    <div class="navbar-nav nav-items ml-auto">
+      <a class="nav-item nav-link active" href="index.html">Home</a>
+      <a class="nav-item nav-link" href="http://127.0.0.1:8000/work/">Work</a>
+      <a class="nav-item nav-link" href="http://127.0.0.1:8000/shop/">Shop</a>
+      
+      
+    </div>
+  </div>
+</nav>
+
+
+  <!-- ............................Navigation Bar.................................................. -->
+
+    <div class="top-container">
+        <img class="top-cloud" src="{% static '/images/cloud.png' %}" alt="cloud">
+        <h1 class="text-center name">I'm Abhinav</h1>
+        <h2 class="text-center">a web developer</h2>
+        <img class="bottom-cloud" src="{% static '/images/cloud.png' %}" alt="clouds">
+        <img src="{% static '/images/mountain.png' %}"class="mx-auto d-block" alt="mountains">
+    </div>
+
+    <div class="middle-container">
+  <div class="profile">
+    <img class="profile-man mx-auto d-block"  src="{% static '/images/man.png' %}" alt="Profile Pic">
+    <h2 class="text-center">Hello.</h2>
+    <p class="intro paragraph">I'am Abhinav. This is my personal website where you can find my projects and other codes.</p>
+  </div>
+  <hr class="ruler"><br>
+
+  <div class="skills">
+    <h2 class="text-center">My Skills.</h2>
+    <div class="skill-row">
+      <img class="code-image" src="{% static '/images/code.png' %}" alt="Web-Tech">
+      <h3>Web development</h3>
+      <p class="paragraph">Still learning it. So far I have learned HTML, CSS and bootstrap. Much more things to learn but not enough time.</p>
+    </div>
+
+    <div class="skill-row">
+      <img class="python-image" src="{% static '/images/python.png' %}" alt="">
+      <h3>Python</h3>
+      <p class="paragraph">My favourite language. Would choose it over any other language any time. Solved numerous problems in python and also made a few projects which you can checkout.</p>
+    </div>
+  </div>
+
+
+  <hr class="ruler">
+  <br>
+  <div class="contact-me">
+    <h2 class="text-center">Get In Touch</h2>
+    <h3 class="text-center">Chitkara University, Baddi</h3>
+    <p class="contact-message">Message me anytime you want.  Will try my best to answer them on time</p>
+    <center>
+      <a href="mailto:abhianavv1701@gmail.com" class="btn btn-outline-primary btn-lg ">Contact Us</a>      
+    </center>
+    
+  </div>
+</div>
+
+
+<div class="bottom-container">
+  <a class="footer-link" href="https://www.linkedin.com/in/abhinav-7634b417a/">LinkedIn</a>
+  <a class="footer-link" href="https://twitter.com/">Twitter</a>
+  <a class="footer-link" href="https://www.google.com">Website</a>
+  <p class="copyright">© 2018 Abhinav Verma.</p>
+</div>
+
+
+</body>
 </html>

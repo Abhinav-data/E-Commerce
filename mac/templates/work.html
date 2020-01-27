@@ -1,0 +1,130 @@
+{% load static %}
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Work</title>
+	<meta charset="utf-8">
+	<title>Abhinav</title>
+	<link rel="stylesheet" href="{% static '/css/styleWork.css' %}">
+	<link href="https://fonts.googleapis.com/css?family=Merriweather|Montserrat|Sacramento&display=swap" rel="stylesheet">
+
+  <!-- Bootstrap -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+</head>
+<body>
+
+	<!-- ............................Navigation Bar.................................................. -->
+  <nav class="navbar navbar-expand-lg " style="background-color: #e0ebe8;">
+  <a class="navbar-brand" href="#">
+  <img src="{% static '/images/man.png' %}" width="10%" height="10%" alt="man.png" class="nav-profile">
+  </a>
+  
+  <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+    <div class="navbar-nav nav-items ml-auto">
+      <a class="nav-item nav-link active" href="http://127.0.0.1:8000">Home</a>
+      <a class="nav-item nav-link" href="http://127.0.0.1:8000/work/">Work</a>
+      <a class="nav-item nav-link" href="http://127.0.0.1:8000/shop/">Shop</a>
+      
+      
+    </div>
+  </div>
+</nav>
+
+
+  <!-- ............................Navigation Bar.................................................. -->
+
+  	<div class="top-container">
+  		<img src="{% static '/images/topimage.png' %}" src="work">
+		
+	</div>
+
+	<div class="middle-container">
+  <div class="profile">
+    <img class="profile-man mx-auto d-block"  src="{% static '/images/pythondraw.png' %}">
+    <h2 class="text-center">Python</h2>
+    <p class="intro paragraph">Here's a selection of some recent work. All the projects have been made by me. To check up more stuff, follow me on github.</p>
+  </div>
+
+
+  <div class="Snake">
+  	<img class="gameImage mx-auto d-block" src="{% static '/images/snakeGame.png' %}" >
+
+  	<h2 class="projectTitle"><b>Snake Game</b></h2>
+
+  	<p class="paragraphProjects">This is a very simple snake game which may not look very good but plays exactly as we remember. Donit go on the UI/UX of the project. It was made to learn and have fun. The code of the program can be found on my github page.</p>
+
+  	<center>
+      <a href="https://github.com/Abhinav-data/Python-Projects/blob/master/snake.py" class="btn btn-dark btn-lg ">Github</a>      
+    </center>
+  	
+  </div>
+
+
+
+  <div class="Pong">
+  	<img class="gameImage mx-auto d-block" src="{% static '/images/PongGame.jpg' %}" >
+
+  	<h2 class="projectTitle"><b>Pong</b></h2>
+
+  	<p class="paragraphProjects">Move the rectangular blocks up or down to bouce back the ball in opposite direction otherwise you will lose.</p>
+
+  	<center>
+      <a href="https://github.com/Abhinav-data/Python-Projects/blob/master/Pong.py" class="btn btn-dark btn-lg ">Github</a>      
+    </center>
+  	
+  </div>
+
+  <div class="Hangman">
+  	<img class="gameImage mx-auto d-block" src="{% static '/images/HangmanGame.jpg' %}" >
+
+  	<h2 class="projectTitle"><b>Hangman</b></h2>
+
+  	<p class="paragraphProjects">Another popular game made in python where you have to guess the word in less than 10 guesses other the man hangs himself.</p>
+
+  	<center>
+      <a href="https://github.com/Abhinav-data/Python-Projects/blob/master/Hangman.py" class="btn btn-dark btn-lg ">Github</a>      
+    </center>
+  	
+  </div>
+
+  <div class="TicTac">
+  	<img class="gameImage mx-auto d-block" src="{% static '/images/TicTacGame.jpg' %}" >
+
+  	<h2 class="projectTitle"><b>Tic Tac Toe</b></h2>
+
+  	<p class="paragraphProjects">A game that everyone plays and still not get bored. Use O or X to play. Use the keyboard Numpad to have hint where to place your marker.</p>
+
+  	<center>
+      <a href="https://github.com/Abhinav-data/Python-Projects/blob/master/TicTacToe.py" class="btn btn-dark btn-lg ">Github</a>      
+    </center>
+  	
+  </div>
+
+  <div class="Calculator">
+  	<img class="gameImage mx-auto d-block" src="{% static '/images/Calculator.png' %}" >
+
+  	<h2 class="projectTitle"><b>Calculator</b></h2>
+
+  	<p class="paragraphProjects">Just a basic calculator to do simple airthmetic operations. Learned a bit about GUI while making this project.</p>
+
+  	<center>
+      <a href="https://github.com/Abhinav-data/Python-Projects/blob/master/Calculator.py" class="btn btn-dark btn-lg ">Github</a>      
+    </center>
+  	
+  </div>
+
+
+  <div class="bottom-container">
+  <a class="footer-link" href="https://www.linkedin.com/in/abhinav-7634b417a/">LinkedIn</a>
+  <a class="footer-link" href="https://twitter.com/">Twitter</a>
+  <a class="footer-link" href="https://www.google.com">Website</a>
+  <p class="copyright">© 2018 Abhinav Verma.</p>
+</div>
+
+
+</body>
+</html>
